@@ -148,6 +148,14 @@ if($POST_RIGHT>="R") :
                         </tr>
                         <tr>
                             <td width="40%" class="adm-detail-content-cell-l">
+                                <label for="calculationPlace"><?=Loc::getMessage('VBCH_CLDKASSA_CALCULATIONPLACE')?></label>
+                            </td>
+                            <td width="60%" class="adm-detail-content-cell-r">
+                                <input type="text" size="30" name="<?=$site?>[calculationPlace]" value="<?=$SETTINGS['calculationPlace']?>"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="40%" class="adm-detail-content-cell-l">
                                 <label for="PAY_SYSTEM_ID"><?=Loc::getMessage('VBCH_CLDKASSA_PAYMENT')?></label>
                             </td>
                             <td width="60%" class="adm-detail-content-cell-r">
